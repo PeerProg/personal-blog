@@ -10,7 +10,6 @@
       "dom.iterable"
     ],
     "sourceMap": true,
-    "outFile": "dist/bundle.js",
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
