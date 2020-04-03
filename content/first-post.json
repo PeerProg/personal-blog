@@ -1,0 +1,15 @@
+{
+  "title": "A Sensible Approach to Developing Product Features",
+  "preview": "It works, it’s reliable, it’s fast, and it feels great!",
+  "slug": "a-sensible-approach-to-developing-product-features",
+  "tags": [
+    "software"
+  ],
+  "bodyContent": "Writing software for people is satisfying! Each feature is an opportunity to create a well-measured solution to a problem. In modern software development, we aren't just asked to solve these problems. We are also expected  From there, you can work down and align your feature’s priority.\n\nUnderstandably, it doesn’t work that way if requirements become fluid. At least now you can identify when your feature creeps beyond its initial scope.\n\nYou can’t start by building great software. It has to work first.",
+  "bodyHtml": "<p>Writing software for people is satisfying! Each feature is an opportunity to create a well-measured solution to a problem. In modern software development, we aren't just asked to solve these problems. We are also expected  with practicality. It would be awful for every feature to result in dozens of micro-optimizations to the architecture.</p>\n<p>On the server side, now would be the time to consider caching strategies, reducing that important time-to-first-byte metric, and parallelizing asynchronous actions.</p>\n<p>For those of us on the front end, we may want to optimize our assets. We can work with the UX team to tighten user feedback loops. These considerations help users stay engaged with our product.</p>\n<p>With meaningful speed considerations applied to our feature, we can continue to the final clause.</p>\n<h1>It feels great!",
+  "dir": "content",
+  "base": "first-post.json",
+  "ext": ".json",
+  "sourceBase": "first-post.md",
+  "sourceExt": ".md"
+}

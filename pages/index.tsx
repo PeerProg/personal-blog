@@ -1,12 +1,19 @@
 import { NextPage } from 'next';
+import ReactMarkdown from 'react-markdown'
 
-const Home: NextPage<{ userAgent: string }> = ({ userAgent }) => (
-  <h1>Hello world! - user agent: {userAgent}</h1>
-);
+const Home: NextPage<{ content: any }> = ({ content }) => {
+  console.log("Summary", content)
+  return <ReactMarkdown source={content} />
+
+}
+
 
 Home.getInitialProps = async ({ req }) => {
-  const userAgent = req ? req.headers['user-agent'] || '' : navigator.userAgent;
-  return { userAgent };
+  const content = await require(`../markdown.md`)
+  // const content = await import("../content/summary.json");
+
+  return { content: content.default }
 };
+
 
 export default Home;

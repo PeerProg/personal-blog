@@ -1,0 +1,20 @@
+{
+  "fileMap": {
+    "content/first-post.json": {
+      "title": "First post",
+      "preview": "It works, it’s reliable, it’s fast, and it feels great!",
+      "slug": "first-post",
+      "tags": [
+        "post"
+      ],
+      "dir": "content",
+      "base": "first-post.json",
+      "ext": ".json",
+      "sourceBase": "first-post.md",
+      "sourceExt": ".md"
+    }
+  },
+  "sourceFileArray": [
+    "posts/first-post.md"
+  ]
+}
